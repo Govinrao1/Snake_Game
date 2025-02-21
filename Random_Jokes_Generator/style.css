@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(rgb(166, 240, 225), rgb(239, 179, 221), rgb(176, 246, 210));
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  width: 900px;
+  height: 300px;
+  border-radius: 10px;
+  border-style: double;
+  background-color:rgb(218, 187, 247);
+  text-align: center;
+  color:navy;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+}
+
+.buttons button {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+#button {
+  background-color: lightgoldenrodyellow;
+  color:navy;
+  border-color:cadetblue;
+  border-radius: 5px;
+  border-style: double;
+}
+
+#jokes-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.joke-card {
+  border: 2px solid purple;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #e7f3ff;
+  color: #843737;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.joke-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.joke-card h2 {
+  margin: 0;
+  color: purple;
+}
+
+.joke-card p {
+  margin: 0;
+  color:blue;
+}
