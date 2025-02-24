@@ -6,13 +6,19 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+h1 {
+    color: #160805; /* Change text color */
+    text-align: center; /* Center text horizontally */
+    font-size: 40px; /* Adjust font size */
+    font-weight: bold; /* Make it bold */
+}
 body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #E3F2FD;
-}
+  background-image: url('https://e0.pxfuel.com/wallpapers/216/153/desktop-wallpaper-snake-game-cool-green-gaming.jpg');
+ 
 .wrapper {
   width: 65vmin;
   height: 70vmin;
@@ -20,12 +26,13 @@ body {
   overflow: hidden;
   flex-direction: column;
   justify-content: center;
-  border-radius: 5px;
-  background: #293447;
-  box-shadow: 0 20px 40px rgba(52, 87, 220, 0.2);
+  border-radius: 10px;
+  border-color: aqua;
+  background: #8b69c0;
+  box-shadow: 0 20px 40px rgba(21, 59, 211, 0.2);
 }
 .game-details {
-  color: #B8C6DC;
+  color:  #160805;
   font-weight: 500;
   font-size: 1.2rem;
   padding: 20px 27px;
@@ -36,14 +43,14 @@ body {
   height: 100%;
   width: 100%;
   display: grid;
-  background: #212837;
+  background: #38c2a9;
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
 }
 .play-board .food {
   background: #FF003D;
 }
 .play-board .head {
-  background: #60CBFF;
+  background: #2323f0;
 }
 .controls {
   display: none;
@@ -53,10 +60,10 @@ body {
   padding: 25px 0;
   text-align: center;
   font-size: 1.3rem;
-  color: #B8C6DC;
+  color: #4b87e7;
   width: calc(100% / 4);
   cursor: pointer;
-  border-right: 1px solid #171B26;
+  border-right: 1px solid #587de3;
 }
 @media screen and (max-width: 800px) {
   .wrapper {
@@ -74,4 +81,5 @@ body {
     padding: 15px 0;
     font-size: 1rem;
   }
+
 }
